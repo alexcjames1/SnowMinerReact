@@ -1,0 +1,30 @@
+.marketEase__content {
+    display: flex;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lowRiskHighReturn__content--mediaTitle {
+    display: block;
+}
+.icon__number {
+    color: #fff;
+    width:190px;
+    height: 40px;
+    box-shadow: 1px 2px 25px 0 rgba(0,0,0,0.05);
+    border-radius: 20px;
+    font-weight: 900;
+    margin-bottom: 0.9375em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon__number--blue {
+    background: linear-gradient(63.43deg, var(--primaryColor) 0%, #45C9FB 100%);
+}
+.icon__number--purple {
+    background: linear-gradient(63.43deg, #A39CF4 0%, #C3BEFF 100%);
+}
+.icon__number--green {
+    background: linear-gradient(45deg, rgba(0,168,168,.7) 0%, rgba(87,255,151,.6) 100%);
+}
