@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
-import style from './Header__nav.css';
-import {flexboxgrid} from '../../';
-import reset from '../../';
 
-export default class header__nav extends Component {
+import style from './Header__nav.scss';
+
+
+
+export default class Header__nav extends Component {
     render() {
         return(
             <div class="header__navigation">
@@ -32,6 +33,7 @@ export default class header__nav extends Component {
                         </ul>
                     </nav>
                 </div>
+            
         );
     }
 }

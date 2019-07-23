@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-import style from './Section.css';
-import {flexboxgrid} from '../../';
-import reset from '../../';
+import style from './Section.scss';
 
 export default class Section extends Component {
     render() {

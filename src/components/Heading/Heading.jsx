@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
-import style from './Heading.css';
+import style from './Heading.scss';
 import {flexboxgrid} from '../../';
 import reset from '../../';
 
 export default class Heading extends Component {
     render() {
-        const {tag, text, noMargin, align, className} = this.props;
+        const {tag, text, noMargin, align, className, children} = this.props;
         const classNameProps = classy(
             tag, 
             'heading', 
@@ -16,7 +16,7 @@ export default class Heading extends Component {
         );
         
         return(
-            <div className={classNameProps}>{text}</div>
+            <div className={classNameProps}>{children}</div>
         );
     }
 }

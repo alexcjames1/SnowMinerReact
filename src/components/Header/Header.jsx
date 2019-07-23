@@ -1,14 +1,31 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
-import style from './Header.css';
-import {flexboxgrid} from '../../';
-import reset from '../../';
-import Header__logo from '../Header__logo/Header__logo';
+
+import style from './Header.scss';
+import { Header__nav, Logo } from '../../components';
 
 export default class Header extends Component {
     render() {
         return(
-            <div className="header"><Header__logo /></div>
+            <header className="header header--transparent">
+        <div className="container">
+            <div className="header__container">
+                <div className="header__logo">
+                    <div className="logo">
+                        <a href="#">
+                            <Logo />
+                        </a>
+                    </div>
+                </div>
+
+                <div className="header__navigation">
+                    <Header__nav />
+                </div>
+            </div>
+                
+        </div>
+    </header>
+            
         );
     }
 }

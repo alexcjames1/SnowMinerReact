@@ -1,0 +1,40 @@
+.driverHero {
+    background-size: cover;
+    background: linear-gradient(180deg, #1F3861 0%, rgba(31,56,97,0) 100%), url("./images/driver-hero.jpg") no-repeat;
+        background-position: 50% 50%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-top: -70px;
+}
+@media (min-width: 768px) {
+    .driverHero {
+        padding-top: 7.5em;
+        padding-bottom: 7.5em;
+}
+}
+
+.driverHero .section__title{
+    color: #fff;
+}
+.driverHero .section__content{
+    color: #fff;
+}
+.driverHero .row {
+    margin-left: 10%;
+    margin-right: auto;
+    max-width: 20%;
+}
+@media (min-width: 768px) {
+    .driverHero .row {
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+}
+.driverHero .section__footer img {
+    width: 152px;
+}
+.driverHero .section__footer .appStoreButton--apple{
+    display: inline-block;
+    padding-right: 5px;
+}

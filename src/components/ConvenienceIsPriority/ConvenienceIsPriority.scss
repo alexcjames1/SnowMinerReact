@@ -1,0 +1,32 @@
+.section__convenienceIsPriority .row {
+        align-items: center;
+        margin: 1.25rem;
+}
+
+    .section__convenienceIsPriority .media__subTitle {
+        color: var(--primaryColor);
+    }
+    .section__convenienceIsPriority .media__content {
+        margin-bottom: 1.875em;
+    }
+    .section__convenienceIsPriority .media__figure {
+        text-align: center;
+    }
+    .section__convenienceIsPriority .media__figure img {
+        margin-bottom: 1.25em;
+  
+    }
+    .section__convenienceIsPriority .media__header {
+    display: block;
+    }
+.media__container {
+    display: flex;
+}
+    .media__container .media__figure img {
+        max-width: 12.5rem;
+        width: 100%;
+        height: auto;
+    }
+    .media__container .media__figure {
+        margin-right: 1.25rem;
+    }

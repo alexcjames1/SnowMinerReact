@@ -1,19 +1,27 @@
 import React, {Component} from 'react';
-import classy from '../../utils/classy';
-import style from './DriverFeatures.css';
-import {flexboxgrid} from '../../';
-import reset from '../../';
+import style from './DriverFeatures.scss';
 import {MediaComponent} from '../';
-import DriverFeatures__content from '../DriverFeatures__content/DriverFeatures__content';
-import earnings from '../../images/track-earnings-icon.png';
-import snow from '../../images/snowflake-icon.png';
-import manage from '../../images/order-management-icon.png';
+import grid from '../Grid/Grid.scss';
+import earnings from './images/track-earnings-icon.png';
+import snow from './images/snowflake-icon.png';
+import management from './images/order-management-icon.png';
 
 export default class DriverFeatures extends Component {
     render() {
         return(
             <div className="driverFeatures">
-                <DriverFeatures__content />
+                <div className="driverFeatures__content">
+                    <div className="col-xs-12 col-sm-4">
+                        <MediaComponent column textAlign="center" image={snow} title="Know the next snowfall" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
+                    </div>
+                    <div className="col-xs-12 col-sm-4">
+                        <MediaComponent column textAlign="center" image={management} title="Easy order management" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
+                    </div>
+                    <div className="col-xs-12 col-sm-4">
+                        <MediaComponent column textAlign="center" image={earnings} title="Track your earnings" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
+                    </div>
+                </div>
+            
             </div>
             
         );

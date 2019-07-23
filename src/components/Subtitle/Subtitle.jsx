@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import style from './Subtitle.css';
+import style from './Subtitle.scss';
 import classy from '../../utils/classy';
 
 export default class Subtitle extends Component {
@@ -14,7 +14,7 @@ export default class Subtitle extends Component {
         );
         
         return(
-            <div class={classNameProps}>{text}</div>
+            <div className={classNameProps}>{text}</div>
         );
     }
 }

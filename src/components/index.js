@@ -1,19 +1,23 @@
+export { default as AppWrapper } from './AppWrapper';
 export { default as Heading } from './Heading';
-export { default as Subtitle } from './Subtitle';
 export { default as MediaComponent } from './MediaComponent';
 export { default as Section } from './Section';
 export { default as Header } from './Header';
 export { default as Header__nav } from './Header__nav';
-export { default as Header__logo } from './Header__logo';
+export { default as Logo } from './Logo';
+export { default as FinalThingsToClick } from './FinalThingsToClick';
+export { default as Footer } from './Footer';
+export { default as Card } from './Card';
+
 export { default as DriverHero } from './DriverHero'; 
-export { default as DriverHero__CTA } from './DriverHero__CTA';
 export { default as DriverFeatures } from './DriverFeatures';
-export { default as DriverFeatures__content } from './DriverFeatures__content';
 export { default as LowRiskHighReturn } from './LowRiskHighReturn';
-export { default as LowRiskHighReturn__content } from './LowRiskHighReturn__content';
 export { default as MarketEase } from './MarketEase';
 export { default as EasyBeautifulInterface } from './EasyBeautifulInterface';
-export { default as EasyBeautifulInterface__content } from './EasyBeautifulInterface__content';
-export { default as FinalThingsToClick } from './FinalThingsToClick';
-export { default as Card } from './Card';
-export { default as Footer } from './Footer';
+
+export { default as UserHero } from './UserHero';
+export { default as UserFeatures } from './UserFeatures';
+export { default as ConvenienceIsPriority } from './ConvenienceIsPriority';
+export { default as HowSnowminerWorks } from './HowSnowminerWorks';
+export { default as EasyBeautifulInterface__User } from './EasyBeautifulInterface';
+
