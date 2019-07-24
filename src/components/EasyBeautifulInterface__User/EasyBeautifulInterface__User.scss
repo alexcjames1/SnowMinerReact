@@ -9,13 +9,13 @@
 .easyBeautifulInterface .media__figure img{
     width: 800px;
 }
-.easyBeautifulInterface .media__content {
-    margin-left: 130px;
-}
-.media__subTitle {
+// .easyBeautifulInterface .media__content {
+//     margin-left: 130px;
+// }
+.easyBeautifulInterface .media__subTitle {
     color: #00A5E4;
 }
-.media__title .heading {
+.easyBeautifulInterface .media__title .heading {
     color: #000;
 }
 .easyBeautifulInterface .media__footer .button--primary {
@@ -27,14 +27,14 @@
     font-weight: 400;
     font-size: 12px;
 }
-.media__container {
+.easyBeautifulInterface .media__container {
     display: flex;
 }
-    .media__container .media__figure img {
+.easyBeautifulInterface .media__container .media__figure img {
         max-width: 12.5rem;
         width: 100%;
         height: auto;
     }
-    .media__container .media__figure {
+.easyBeautifulInterface .media__container .media__figure {
         margin-right: 1.25rem;
     }

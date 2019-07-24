@@ -5,7 +5,7 @@ import grid from '../Grid/Grid.scss';
 import earnings from './images/track-earnings-icon.png';
 import snow from './images/snowflake-icon.png';
 import management from './images/order-management-icon.png';
-import {Col, Row, Container } from 'react-bootstrap'
+import {Col, Row, Container } from 'react-bootstrap';
 
 export default class DriverFeatures extends Component {
     render() {

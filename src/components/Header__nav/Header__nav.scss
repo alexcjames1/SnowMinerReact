@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
 
-    .navigation--main Link:hover:before {
+    .navigation--main .nav__link:hover:before {
         content: ' ';
         position: absolute;
         bottom: 0;
@@ -47,7 +47,7 @@
     .navigation__menuList > li {
         padding: 0;
     }
-    .navigation__menuList Link {
+    .navigation__menuList .nav__link {
         color: var(--baseFontColor);
         font-family: sans-serif;
         font-size: 0.875rem;
@@ -56,7 +56,7 @@
         display: block;
         padding: 1rem;
     }
-.navigation__menuTrigger Link {
+.navigation__menuTrigger .nav__link {
     color: inherit;
     font-size: 1.5rem;
     color: #fff;
@@ -73,11 +73,11 @@
     .navigation__menuList li {
         display: inline;
     }
-    .navigation__menuList Link {
+    .navigation__menuList .nav__link {
         color: #fff;
     }
 }
-.navigation--main Link {position: relative;}
+.navigation--main .nav__link {position: relative;}
 
 ////////BUTTON STYLES
 

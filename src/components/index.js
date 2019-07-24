@@ -9,7 +9,7 @@ export { default as FinalThingsToClick } from './FinalThingsToClick';
 export { default as Footer } from './Footer';
 export { default as Card } from './Card';
 
-export { default as DriverHero } from './DriverHero'; 
+export { default as DriverHero } from './DriverHero';
 export { default as DriverFeatures } from './DriverFeatures';
 export { default as LowRiskHighReturn } from './LowRiskHighReturn';
 export { default as MarketEase } from './MarketEase';
@@ -20,4 +20,3 @@ export { default as UserFeatures } from './UserFeatures';
 export { default as ConvenienceIsPriority } from './ConvenienceIsPriority';
 export { default as HowSnowminerWorks } from './HowSnowminerWorks';
 export { default as EasyBeautifulInterface__User } from './EasyBeautifulInterface';
-

@@ -235,7 +235,7 @@
 @media (min-width: 768px) {
     .brand-scenery__background {
         background: url(./images/bg-sky.svg) repeat-x;
-        background-position: 50% -240px;
+        background-position: 50% -247px;
     }
 }
 
@@ -247,21 +247,17 @@
 .userHero .section__content{
     color: #fff;
 }
-.userHero .row {
-    margin-left: 10%;
-    margin-right: auto;
-    max-width: 20%;
-}
-@media (min-width: 768px) {
-    .userHero .row {
-        max-width: 90%;
-        margin-left: 10%;
-        margin-right: auto;
-    }
-}
+
 .userHero .section__footer img {
     width: 152px;
 }
 .userHero .section__footer .appStoreButton--apple{
     padding-right: 5px;
+}
+.userHero .row {
+  margin-top: 35px;
+}
+.userHero .userHero__CTA {
+  margin-top: 15px;
+  max-width: 35%;
 }

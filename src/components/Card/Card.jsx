@@ -3,6 +3,8 @@ import classy from '../../utils/classy';
 import style from './Card.scss';
 import {Heading} from '../';
 
+
+
 export default class Card extends Component {
     render() {
         const {image, title, paragraph, column, textAlign, button } = this.props;
@@ -13,7 +15,7 @@ export default class Card extends Component {
                     <img src={image}/>
                  </div>
                 <div className="card__content">
-                    {title ? <Heading title={title} tag="h4" className='card__heading' /> : ''}
+                    {title ? <Heading tag="h4" className='card__heading'>{title}</Heading> : ''}
                     {paragraph ? <p className='card__body'>{paragraph}</p> : ''}
                     {button ? <a className="card__button">{button}</a> : ''}
                 </div>

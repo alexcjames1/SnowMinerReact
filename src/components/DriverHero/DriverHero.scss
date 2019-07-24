@@ -1,10 +1,10 @@
 .driverHero {
-    background-size: cover;
     background: linear-gradient(180deg, #1F3861 0%, rgba(31,56,97,0) 100%), url("./images/driver-hero.jpg") no-repeat;
-        background-position: 50% 50%;
+    background-position: 50% 50%;
     padding-top: 5em;
     padding-bottom: 5em;
     margin-top: -70px;
+    background-size: cover;
 }
 @media (min-width: 768px) {
     .driverHero {
