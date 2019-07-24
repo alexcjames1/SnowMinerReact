@@ -3,12 +3,12 @@ import classy from '../../utils/classy';
 import style from './UserHero.scss';
 import appStore from './images/app-store.png';
 import googlePlay from './images/google-play.png';
-
+import {Col, Row, Container } from 'react-bootstrap';
 
 export default class UserHero extends Component {
     render() {
         return(
-            <div className="userHero">  
+            <div className="userHero">
                 <div className="brand-scenery">
                     <div className="brand-scenery__background">
 
@@ -29,15 +29,14 @@ export default class UserHero extends Component {
                                                 </div>
                                             </div>
 
-                                        </div>   
+                                        </div>
                                     </div>
 
 
 
-                                    <div className="container">
-                                        <div className="row">
-
-                                            <div className="col-xs-12 col-sm-5">
+                                    <Container>
+                                        <Row>
+                                          <Col xs="12" sm="5">
                                                 <div className="section__header">
                                                     <h1 className="section__title h1">
                                                         Earn money on your own schedule
@@ -54,10 +53,9 @@ export default class UserHero extends Component {
                                                         <img src={googlePlay} />
                                                     </a>
                                                 </div>
-                                            </div>
+                                            </Col>
 
-                                            <div className="col-xs-12 col-sm-7">
-
+                                            <Col xs="12" sm="7">
                                                 <div className="brand-scenery__focus">
                                                     <div className="brand-scenery__focus--phone">
                                                     </div>
@@ -79,19 +77,16 @@ export default class UserHero extends Component {
                                                     </div>
 
                                                 </div>
+                                          </Col>
 
-                                            </div>
-
-                                        </div>
-                                    </div>
+                                        </Row>
+                                    </Container>
 
                                 </div>
                             </section>
-
                         </div>
                     </div>
                 </div>
-                <script src="./assets/UserHero.js"></script>
             </div>
         );
     }

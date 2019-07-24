@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import classy from '../../utils/classy';
 import style from './EasyBeautifulInterface__User.scss';
 import phoneInterface from './images/interface-graphic.png';
+import {Col, Row, Container } from 'react-bootstrap';
 
 export default class EasyBeautifulInterface__User extends Component {
     render() {
@@ -9,17 +10,17 @@ export default class EasyBeautifulInterface__User extends Component {
                 <div className="easyBeautifulInterface">
                     <section className="section section__easyBeautifulinterface">
 
-                        <div className="container">
-                            <div className="row">
+                        <Container>
+                            <Row>
 
-                                <div className="col-xs-12 col-sm-6">
+                                <Col xs="12" sm="6">
                                     <div className="media">
                                         <div className="media__figure">
                                             <img src={phoneInterface} alt="#" />
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-xs-12 col-sm-6">
+                                </Col>
+                                <Col xs="12" sm="6">
                                     <div className="media__content">
                                         <div className="media__header">
                                             <h4 className="media__subTitle">
@@ -33,7 +34,7 @@ export default class EasyBeautifulInterface__User extends Component {
                                         </div>
                                         <div className="media__body">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat ornare sapien dictum iaculis. Class aptent taciti sociosqu ad litora torquent Class aptent taciti sociosqu ad litora  
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat ornare sapien dictum iaculis. Class aptent taciti sociosqu ad litora torquent Class aptent taciti sociosqu ad litora
                                             </p>
                                         </div>
                                         <div className="media__footer">
@@ -41,11 +42,11 @@ export default class EasyBeautifulInterface__User extends Component {
                                                 <i className="mdi mdi-arrow-right-drop-circle-outline button--watchArrow"></i> Watch Video
                                             </a>
                                         </div>
-                                    </div> 
-                                </div>
+                                    </div>
+                                </Col>
 
-                            </div>
-                        </div>
+                            </Row>
+                        </Container>
 
                     </section>
                 </div>

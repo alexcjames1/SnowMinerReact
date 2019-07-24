@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import classy from '../../utils/classy';
 import style from './ConvenienceIsPriority.scss';
 import userConvenience from './images/user-convenience.jpg';
-
+import {Col, Row, Container } from 'react-bootstrap';
 
 export default class ConvenienceIsPriority extends Component {
     render() {
@@ -10,17 +10,17 @@ export default class ConvenienceIsPriority extends Component {
             <div className="convenienceIsPriority">
                 <section className="section section__convenienceIsPriority">
 
-                    <div className="container">
-                        <div className="row">
+                    <Container>
+                        <Row>
 
-                            <div className="col-xs-12 col-sm-6">
+                            <Col xs="12" sm="6">
                                 <div className="media">
                                     <div className="media__figure">
                                         <img src={userConvenience} alt="#" />
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-xs-12 col-sm-6">
+                            </Col>
+                            <Col xs="12" sm="6">
                                 <div className="media">
                                     <div className="media__header">
                                         <h4 className="media__subTitle">
@@ -34,14 +34,14 @@ export default class ConvenienceIsPriority extends Component {
                                     </div>
                                     <div className="media__content">
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat ornare sapien dictum iaculis. Class aptent taciti sociosqu ad litora torquent Class aptent taciti sociosqu ad litora  
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat ornare sapien dictum iaculis. Class aptent taciti sociosqu ad litora torquent Class aptent taciti sociosqu ad litora
                                         </p>
                                     </div>
-                                </div> 
-                            </div>
+                                </div>
+                            </Col>
 
-                        </div>
-                    </div>
+                        </Row>
+                    </Container>
 
                 </section>
             </div>

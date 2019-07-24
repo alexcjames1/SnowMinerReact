@@ -31,7 +31,7 @@ var orangeHouse = offset(orangeHouseEl);
 var purpleHouseEl = document.querySelector('.brand-scenery__object--house-purple');
 
 var purpleHouse = offset(purpleHouseEl);
-    
+
 var checkIfTruckDriving = function() {
     delay(function() {
         truck.isDriving = 0;
@@ -58,4 +58,3 @@ setInterval(function() {
         }
     }
 }, 100);
-

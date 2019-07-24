@@ -3,12 +3,14 @@ import classy from '../../utils/classy';
 import style from './Footer.scss';
 import {flexboxgrid} from '../../';
 import Logo from '../Logo/Logo';
+import {Col, Row, Container } from 'react-bootstrap';
 
 export default class Footer extends Component {
     render() {
         return(
             <footer className="footer">
-                <div className="container">
+                <Container>
+                  <Row>
 
                     <div className="footer__navigation">
                         <div className="footer__logo">
@@ -22,10 +24,10 @@ export default class Footer extends Component {
                             <ul className="list">
                                 <li>
                                     <a href="#">Schedule</a>
-                                </li> 
+                                </li>
                                 <li className="list__item--active">
                                     <a href="#">Drive</a>
-                                </li> 
+                                </li>
                                 <li>
                                     <a href="#">Contact</a>
                                 </li>
@@ -51,7 +53,8 @@ export default class Footer extends Component {
 
                         </div>
                     </div>
-                </div>
+                    </Row>
+                </Container>
             </footer>
         );
     }

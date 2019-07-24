@@ -8,7 +8,7 @@ import {Heading} from '../';
 export default class Blurb extends Component  {
     render() {
         const {image, title, paragraph, column, textAlign } = this.props;
-        
+
         return (
             <div className={ classy('media', column ? 'media--column' : '', textAlign ? ['textAlign--' + textAlign] : '') }>
                 <div className="media__figure media__figure--centered">

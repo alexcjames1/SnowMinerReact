@@ -1,7 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import {Heading, Header, AppWrapper, DriverHero, DriverFeatures, MarketEase, LowRiskHighReturn, EasyBeautifulInterface, FinalThingsToClick, Footer} from './components';
-import {UserHero, UserFeatures, ConvenienceIsPriority, HowSnowminerWorks} from './components';
 import { Landing, Driver } from './routes';
 
 

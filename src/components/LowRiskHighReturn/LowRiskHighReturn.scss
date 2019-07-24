@@ -11,10 +11,9 @@
 }
     .section__lowRiskhighReturn .row {
         align-items: center;
-        justify-content:  center;
-    }   
+    }
         .section__lowRiskhighReturn .col__content {
-            max-width: 80%;   
+            max-width: 80%;
         }
             .section__lowRiskhighReturn .section__subTitle {
                 font-weight: 300;
@@ -23,9 +22,12 @@
 .logo--appIcon img {
     width: 50px;
 }
+.section__lowRiskhighReturn .media__figure img {
+  width: 100%;
+}
 @media (min-width: 768px) {
     .section__lowRiskhighReturn .col__content {
             max-width: 40%;
-            
+
         }
 }

@@ -22,7 +22,7 @@
     85% { transform: skewY(4deg); }
     90% { transform: skewY(6deg); }
     95% { transform: skewY(4deg); }
-    100% { transform: skewY(0deg); }  
+    100% { transform: skewY(0deg); }
 }
 */
 
@@ -32,7 +32,7 @@
     85% { transform: skewY(0deg); }
     90% { transform: skew(-5deg, -5deg); }
     95% { transform: skewY(0deg); }
-    100% { transform: skewY(0deg); }  
+    100% { transform: skewY(0deg); }
 }
 
 
@@ -46,14 +46,14 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
-    z-index: 3;  /*on top of snow */ 
+    z-index: 3;  /*on top of snow */
 }
 .brand-scenery__focusChildren > * {
     position: absolute;
 }
 
 /***phone***/
-.brand-scenery__focus--phone { 
+.brand-scenery__focus--phone {
     background: url(./images/phone-cta.png) no-repeat;
     background-size: 325px;
     width: 300px;
@@ -128,12 +128,12 @@
     height: 174px;
     background: url(./images/orange-house.svg) no-repeat;
     background-size: contain;
-    
+
     animation-duration: 1.7s;
     animation-iteration-count: 1;
     background-size: 100%;
     transform-origin: bottom;
-    animation-name: bounce;  
+    animation-name: bounce;
 }
 .brand-scenery__object--house-purple {
     right: -84%;
@@ -142,7 +142,7 @@
     height: 170px;
     background: url(./images/purple-house.svg) no-repeat;
     background-size: contain;
-    
+
     animation-duration: 1.7s;
     animation-iteration-count: 1;
     background-size: 100%;

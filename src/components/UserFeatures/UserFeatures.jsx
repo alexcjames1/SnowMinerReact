@@ -5,25 +5,29 @@ import {MediaComponent} from '../';
 import onTheGo from './images/on-the-go-icon.png';
 import priceTag from './images/price-tag-icon.png';
 import snowflake from './images/snowflake-icon.png';
-
+import {Col, Row, Container } from 'react-bootstrap';
 
 export default class UserFeatures extends Component {
     render() {
         return(
             <div className="driverFeatures">
                 <div className="driverFeatures__content">
-                    <div className="col-xs-12 col-sm-4">
-                        <MediaComponent column textAlign="center" image={snowflake} title="Know the next snowfall" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
-                    </div>
-                    <div className="col-xs-12 col-sm-4">
-                        <MediaComponent column textAlign="center" image={onTheGo} title="Easy order management" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
-                    </div>
-                    <div className="col-xs-12 col-sm-4">
-                        <MediaComponent column textAlign="center" image={priceTag} title="Track your earnings" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
-                    </div>
+                  <Container>
+                    <Row>
+                      <Col xs="12" sm="4">
+                        <MediaComponent column textAlign="center" image={snowflake} title="No longer brave the cold" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
+                      </Col>
+                        <Col xs="12" sm="4">
+                            <MediaComponent column textAlign="center" image={onTheGo} title="Order on the go" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
+                        </Col>
+                        <Col xs="12" sm="4">
+                            <MediaComponent column textAlign="center" image={priceTag} title="Simple process, Simple pricing" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
+                        </Col>
+                      </Row>
+                  </Container>
                 </div>
-            
-            </div> 
+
+            </div>
         );
     }
 }
