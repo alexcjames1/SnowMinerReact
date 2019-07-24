@@ -4,18 +4,17 @@ import style from './LowRiskHighReturn.scss';
 import earningsModal from './images/earnings-modal.png';
 import {MediaComponent} from '../';
 import appIcon from './images/snowminer-driver-app-icon.png';
-import {Section} from '../';
 import {Col, Row, Container } from 'react-bootstrap';
+import { Section } from '../../components';
 
 export default class LowRiskHighReturn extends Component {
     render() {
         return(
             <div className="lowRiskhighReturn">
-              <section className="section section--huge section--dark section--tertiary section__lowRiskhighReturn">
-
-                <Container>
+                  <Section className="section section--huge section--dark section--tertiary section__lowRiskhighReturn" kind="dark">
                     <Row>
-                        <Col xs="12" sm="6">
+
+                        <Col xs="12" sm="6" className="lowRiskHighReturn__appInfo">
                           <div className="section__header">
                               <div className="logo logo--appIcon">
                                   <img src={appIcon} alt="#" />
@@ -37,21 +36,20 @@ export default class LowRiskHighReturn extends Component {
                                   Sign up now to become a driver
                               </a>
                           </div>
+                        </Col>
 
-                          </Col>
+
                         <Col xs="12" sm="6">
-
                             <div className="media">
                                 <div className="media__figure">
                                     <img src={earningsModal} alt="#" />
                                 </div>
                             </div>
-
                         </Col>
-                    </Row>
-                </Container>
 
-              </section>
+                    </Row>
+
+            </Section>
             </div>
         );
     }

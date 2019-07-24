@@ -33,8 +33,6 @@ export default class DriverHero extends Component {
                         </Row>
                     </Container>
 
-
-
                 </section>
             </div>
 

@@ -6,13 +6,12 @@
                 0 15px 35px 0 rgba(50,50,93,0.1);
     align-items: center;
 }
-    @media (min-width: 768px) {
-        .card {
-
-            padding: 0.625rem;
-            margin-bottom: 3.125em;
-        }
+@media (min-width: 768px) {
+    .card {
+        padding: 0.625rem;
+        margin-bottom: 3.125em;
     }
+}
 .card__content {
     padding: 1.25rem;
     font-family: 1rem;
@@ -36,5 +35,4 @@
 .media {
     display: flex;
     margin-right: 1.25rem;
-//    color: #6B7C93;
 }

@@ -19,4 +19,4 @@ export { default as UserHero } from './UserHero';
 export { default as UserFeatures } from './UserFeatures';
 export { default as ConvenienceIsPriority } from './ConvenienceIsPriority';
 export { default as HowSnowminerWorks } from './HowSnowminerWorks';
-export { default as EasyBeautifulInterface__User } from './EasyBeautifulInterface';
+export { default as EasyBeautifulInterface__User } from './EasyBeautifulInterface__User';
