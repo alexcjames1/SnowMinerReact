@@ -3,9 +3,17 @@
 }
 .footer .row {
     display: block;
-    // width: 80%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+@media (min-width: 768px) {
+    .footer .row {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .footer .footer__legal {
     border: solid;
@@ -18,7 +26,12 @@
     padding: 1em 0;
 }
 .footer .footer__logo img {
-    width: 20%;
+    width: 60%;
+}
+@media (min-width: 768px) {
+  .footer .footer__logo img {
+      width: 20%;
+  }
 }
 .footer .footer__copyright {
     font-family: sans-serif;

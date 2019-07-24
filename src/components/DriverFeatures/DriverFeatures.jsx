@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import style from './DriverFeatures.scss';
 import {MediaComponent} from '../';
-import grid from '../Grid/Grid.scss';
+import grid from '../Grid';
 import earnings from './images/track-earnings-icon.png';
 import snow from './images/snowflake-icon.png';
 import management from './images/order-management-icon.png';

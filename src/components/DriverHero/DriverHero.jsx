@@ -12,7 +12,7 @@ export default class DriverHero extends Component {
 
                     <Container>
                         <Row>
-                            <Col xs="12" sm="5">
+                            <Col xs="12" sm="5" className="driverHero__CTA">
                                 <div className="section__header">
                                     <h1 className="section__title h1">
                                         Earn money on your own schedule

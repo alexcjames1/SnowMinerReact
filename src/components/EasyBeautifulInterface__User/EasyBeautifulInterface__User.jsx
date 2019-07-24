@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import classy from '../../utils/classy';
 import style from './EasyBeautifulInterface__User.scss';
 import phoneInterface from './images/interface-graphic.png';
+import snowminerAppIcon from './images/snowminer-app-icon.png';
 import {Col, Row, Container } from 'react-bootstrap';
 
 export default class EasyBeautifulInterface__User extends Component {
@@ -22,6 +23,9 @@ export default class EasyBeautifulInterface__User extends Component {
                                 </Col>
                                 <Col xs="12" sm="6">
                                     <div className="media__content">
+                                        <div class="media--appIcon">
+                                          <img src={snowminerAppIcon} alt="#" />
+                                        </div>
                                         <div className="media__header">
                                             <h4 className="media__subTitle">
                                                 Easy and fun to use

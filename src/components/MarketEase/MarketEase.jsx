@@ -15,13 +15,13 @@ export default class MarketEase extends Component {
                                     Bringing Ease and Flexibility to the Market
                                 </h2>
                                 <p className="lead">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum Pellentesque 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed
                                 </p>
                             </div>
                         </div>
 
 
-                        <div className="row"> 
+                        <div className="row">
 
                             <div className="col-xs-12 col-sm-4">
 
@@ -46,7 +46,7 @@ export default class MarketEase extends Component {
                                 </div>
                                 <h3 className="h3">All in one convenient place</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat
                                 </p>
                             </div>
 

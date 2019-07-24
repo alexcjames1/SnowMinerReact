@@ -6,8 +6,8 @@ export default class Landing extends Component {
         return (
           <AppWrapper>
             <UserHero />
-            <UserFeatures />
             <ConvenienceIsPriority />
+            <UserFeatures />
             <HowSnowminerWorks />
             <EasyBeautifulInterface__User />
             <FinalThingsToClick />

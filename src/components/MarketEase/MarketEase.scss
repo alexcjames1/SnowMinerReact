@@ -5,10 +5,13 @@
 }
 .marketEase .section__header {
     text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }.marketEase .icon__number {
     color: #fff;
-    height: 40px;	
-    width: 40px;		
+    height: 40px;
+    width: 40px;
     box-shadow: 1px 2px 25px 0 rgba(0,0,0,0.05);
     border-radius: 20px;
     font-weight: 900;
@@ -18,7 +21,7 @@
     align-items: center;
 }
 .icon__number--blue {
-    background: linear-gradient(63.43deg, var(--primaryColor) 0%, #45C9FB 100%); 
+    background: linear-gradient(63.43deg, var(--primaryColor) 0%, #45C9FB 100%);
 }
 .icon__number--purple {
     background: linear-gradient(63.43deg, #A39CF4 0%, #C3BEFF 100%);
@@ -38,7 +41,7 @@
 }
 .section__marketEase .col-sm-4 {
     padding: 1.25rem;
-    max-width: 90%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -50,7 +53,7 @@
     border-radius: 4px;
     box-shadow: 0 2px 10px 0 rgba(35,10,74,0.15);
     padding: 0.75em 1.25rem;
-    
+
 }
 .section__marketEase .container__footer {
     text-align: center;

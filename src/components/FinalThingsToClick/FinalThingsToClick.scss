@@ -1,6 +1,17 @@
-// .finalThingsToClick {
-//     display: flex;
-//     max-width: 78%;
-//     margin-left: auto;
-//     margin-right: auto;
-// }
+.finalThingsToClick {
+  margin-bottom: 60px;
+}
+.finalThingsToClick .card {
+  margin-bottom: 20px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .finalThingsToClick .card {
+    margin-bottom: 40px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
