@@ -50,19 +50,9 @@
 }
 @media (min-width: 768px) {
     .brand-scenery__focusChildren {
+        margin-top: 300px;
         height: 200px;
         width: 265px;
-        bottom: 0;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, 0);
-        z-index: 3;  /*on top of snow */
-    }
-}
-@media (min-width: 991px) {
-    .brand-scenery__focusChildren {
-        height: 200px;
-        width: 300px;
         bottom: 0;
         position: absolute;
         left: 50%;

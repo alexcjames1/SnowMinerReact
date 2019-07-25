@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import classy from '../../utils/classy';
 import style from './EasyBeautifulInterface__User.scss';
 import phoneInterface from './images/interface-graphic.png';
 import snowminerAppIcon from './images/snowminer-app-icon.png';
+import {Link} from 'react-router-dom';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
@@ -41,9 +41,7 @@ export default class EasyBeautifulInterface__User extends Component {
                                         </p>
                                     </div>
                                     <div className="media__footer">
-                                        <a href="#" className="button button--lg button--primary">
-                                            <i className="mdi mdi-arrow-right-drop-circle-outline button--watchArrow"></i> Watch Video
-                                            </a>
+                                        <Link to={"/"} className="button button--lg button--primary"><i className="mdi mdi-arrow-right-drop-circle-outline button--watchArrow"></i> Watch Video</Link>
                                         </div>
                                     </div>
                                 </Col>

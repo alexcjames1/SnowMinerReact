@@ -8,7 +8,7 @@ export default class ConvenienceIsPriority extends Component {
     render() {
         return(
             <div className="convenienceIsPriority">
-                <Section className="section__convenienceIsPriority" kind="primary">
+                <Section className="section__convenienceIsPriority" kind="primary" size="normal">
                     <Row>
                         <Col xs="12" sm="6">
                             <div className="media">

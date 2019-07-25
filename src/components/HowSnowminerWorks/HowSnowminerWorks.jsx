@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import classy from '../../utils/classy';
 import style from './HowSnowminerWorks.scss';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
@@ -8,7 +7,7 @@ export default class HowSnowminerWorks extends Component {
     render() {
         return(
             <div className="HowSnowminerWorks">
-                <Section className="section section--large section--secondary section__HowSnowminerWorks" kind="secondary">
+                <Section className="section section--large section--secondary section__HowSnowminerWorks" kind="secondary" size="small">
 
                         <Col xs="12" sm="12" className="section__header section__header--centered">
                             <div className="section__title">

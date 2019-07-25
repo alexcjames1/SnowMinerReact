@@ -1,30 +1,35 @@
 @media (min-width: 768px) {
-  .easyBeautifulInterface .row {
+  .easyBeautifulInterface__User .row {
       display: flex;
       align-items: center;
   }
 }
 @media (min-width: 991px) {
-  .easyBeautifulInterface .row {
+  .easyBeautifulInterface__User .row {
       display: flex;
       align-items: center;
   }
 }
-.easyBeautifulInterface .media__figure img{
+.easyBeautifulInterface__User .media__figure img{
     width: 600px;
 }
 @media (min-width: 768px) {
-  .easyBeautifulInterface .media__figure img{
+  .easyBeautifulInterface__User .media__figure img{
       width: 700px;
   }
 }
 @media (min-width: 991px) {
-  .easyBeautifulInterface .media__figure img{
+  .easyBeautifulInterface__User .media__figure img{
       width: 800px;
   }
 }
-.easyBeautifulInterface .media__content {
-    margin-left: 130px;
+.easyBeautifulInterface__User .media__content {
+    margin-left: 0px;
+}
+@media (min-width: 768px) {
+    .easyBeautifulInterface__User .media__content {
+        margin-left: 130px;
+    }
 }
 .media__subTitle {
     color: #00A5E4;
@@ -32,7 +37,7 @@
 .media__title .heading {
     color: #000;
 }
-.easyBeautifulInterface .media__footer .button--primary {
+.easyBeautifulInterface__User .media__footer .button--primary {
     color: #00A5E4;
     padding: 10px 20px;
     border-radius: 4px;
@@ -40,8 +45,4 @@
     border: 1px solid;
     font-weight: 400;
     font-size: 12px;
-}
-.easyBeautifulInterface .media--appIcon img {
-    width: 18%;
-    margin-left: -18px;
 }

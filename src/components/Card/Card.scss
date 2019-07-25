@@ -25,6 +25,9 @@
     font-weight: 900;
     text-transform: uppercase;
 }
+.card__button:hover {
+    text-decoration:underline;
+}
 .card .card__heading {
     font-weight: 900;
 }

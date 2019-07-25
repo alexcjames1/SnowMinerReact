@@ -13,7 +13,7 @@ export default class UserFeatures extends Component {
         return(
             <div className="driverFeatures">
                 <div className="driverFeatures__content">
-                    <Section className="section__userFeatures" kind="primary" size="xsmall">
+                    <Section className="section__userFeatures" kind="primary" size="small">
                     <Row>
                       <Col xs="12" sm="4">
                         <MediaComponent column textAlign="center" image={snowflake} title="No longer brave the cold" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />

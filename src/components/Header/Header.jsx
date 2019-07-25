@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import classy from '../../utils/classy';
-
 import style from './Header.scss';
 import { Logo, Header__nav } from '../../components';
 

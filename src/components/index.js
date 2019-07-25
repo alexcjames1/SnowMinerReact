@@ -2,6 +2,7 @@ export { default as AppWrapper } from './AppWrapper';
 export { default as Heading } from './Heading';
 export { default as MediaComponent } from './MediaComponent';
 export { default as Section } from './Section';
+export { default as Button } from './Button';
 export { default as Header } from './Header';
 export { default as Header__nav } from './Header__nav';
 export { default as Logo } from './Logo';

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import classy from '../../utils/classy';
 import style from './UserHero.scss';
 import appStore from './images/app-store.png';
 import googlePlay from './images/google-play.png';
+import { Section } from '../../components';
 import {Col, Row, Container } from 'react-bootstrap';
 
 export default class UserHero extends Component {
@@ -14,7 +14,7 @@ export default class UserHero extends Component {
 
                         <div className="brand-scenery__stage">
 
-                            <section className="section section--huge section--dark section--userHero section--onTransparentHeader">
+                            <Section className="section section--huge section--dark section--userHero section--onTransparentHeader" size="none">
                                 <div className="brand-scenery__foreground">
                                     <div className="brand-scenery__snow"></div>
                                     <div className="brand-scenery__container">
@@ -83,7 +83,7 @@ export default class UserHero extends Component {
                                     </Container>
 
                                 </div>
-                            </section>
+                            </Section>
                         </div>
                     </div>
                 </div>
