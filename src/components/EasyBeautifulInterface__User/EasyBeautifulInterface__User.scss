@@ -1,27 +1,27 @@
 @media (min-width: 768px) {
-  .easyBeautifulInterface__User .row {
-      display: flex;
-      align-items: center;
-  }
+    .easyBeautifulInterface__User .row {
+        display: flex;
+        align-items: center;
+    }
 }
 @media (min-width: 991px) {
-  .easyBeautifulInterface__User .row {
-      display: flex;
-      align-items: center;
-  }
+    .easyBeautifulInterface__User .row {
+        display: flex;
+        align-items: center;
+    }
 }
 .easyBeautifulInterface__User .media__figure img{
     width: 600px;
 }
 @media (min-width: 768px) {
-  .easyBeautifulInterface__User .media__figure img{
-      width: 700px;
-  }
+    .easyBeautifulInterface__User .media__figure img{
+        width: 700px;
+    }
 }
 @media (min-width: 991px) {
-  .easyBeautifulInterface__User .media__figure img{
-      width: 800px;
-  }
+    .easyBeautifulInterface__User .media__figure img{
+        width: 800px;
+    }
 }
 .easyBeautifulInterface__User .media__content {
     margin-left: 0px;
@@ -45,4 +45,8 @@
     border: 1px solid;
     font-weight: 400;
     font-size: 12px;
+}
+.easyBeautifulInterface__User .media--appIcon img {
+    width: 15%;
+    margin-left: -18px;
 }

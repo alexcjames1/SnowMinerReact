@@ -13,20 +13,20 @@ export default class DriverFeatures extends Component {
         return(
             <div>
                 <Section className="section__driverFeatures" kind="primary" size="normal">
-                <div className="driverFeatures__content">
-                    <Row>
-                      <Col xs="12" sm="4">
-                        <MediaComponent column textAlign="center" image={snow} title="Know the next snowfall" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
-                      </Col>
-                        <Col xs="12" sm="4">
-                            <MediaComponent column textAlign="center" image={management} title="Easy order management" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
-                        </Col>
-                        <Col xs="12" sm="4">
-                            <MediaComponent column textAlign="center" image={earnings} title="Track your earnings" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
-                        </Col>
-                      </Row>
-                </div>
-            </Section>
+                    <div className="driverFeatures__content">
+                        <Row>
+                            <Col xs="12" sm="4">
+                                <MediaComponent column textAlign="center" image={snow} title="Know the next snowfall" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
+                            </Col>
+                            <Col xs="12" sm="4">
+                                <MediaComponent column textAlign="center" image={management} title="Easy order management" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
+                            </Col>
+                            <Col xs="12" sm="4">
+                                <MediaComponent column textAlign="center" image={earnings} title="Track your earnings" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat" />
+                            </Col>
+                        </Row>
+                    </div>
+                </Section>
             </div>
 
         );

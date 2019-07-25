@@ -13,7 +13,7 @@ export default class Blurb extends Component  {
             <div className={ classy('media', column ? 'media--column' : '', textAlign ? ['textAlign--' + textAlign] : '') }>
                 <div className="media__figure media__figure--centered">
                     <img src={image} />
-                 </div>
+                </div>
                 <div className="media__content">
                     {title ? <Heading tag="h3" className='media__title'>{title}</Heading> : ''}
                     {paragraph ? <p className="media__body">{paragraph}</p> : ''}

@@ -2,7 +2,6 @@
     background: linear-gradient(45deg, rgba(0,168,168,1) 0%, rgba(87,255,151,1) 100%);
     color: #fff;
 }
-
 .section__lowRiskhighReturn .button--link {
     color: #fff;
     font-family: sans-serif;
@@ -11,7 +10,6 @@
 .section__lowRiskhighReturn .row {
     align-items: center;
 }
-
 .section__lowRiskhighReturn .section__subTitle {
     font-weight: 300;
     margin: 0.625em 0;
@@ -23,10 +21,10 @@
     margin-bottom: 40px;
 }
 .section__lowRiskhighReturn .media__figure img {
-  width: 100%;
+    width: 100%;
 }
 @media (min-width: 768px) {
-  .section__lowRiskhighReturn .section__footer {
-      margin-bottom: 0px;
-  }
+    .section__lowRiskhighReturn .section__footer {
+        margin-bottom: 0px;
+    }
 }

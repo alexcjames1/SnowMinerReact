@@ -11,29 +11,29 @@ export default class LowRiskHighReturn extends Component {
     render() {
         return(
             <div className="lowRiskhighReturn">
-                  <Section className="section section--huge section--dark section--tertiary section__lowRiskhighReturn" kind="dark" size="normal">
+                <Section className="section section--huge section--dark section--tertiary section__lowRiskhighReturn" kind="dark" size="normal">
                     <Row>
 
                         <Col xs="12" sm="6" className="lowRiskHighReturn__appInfo">
-                          <div className="section__header">
-                              <div className="logo logo--appIcon">
-                                  <img src={appIcon} alt="#" />
-                              </div>
-                              <h4 className="section__subTitle">
-                                  Drive with SnowMiner
-                              </h4>
-                              <div className="section__title">
-                                  <h2>Low Risk, High Return</h2>
-                              </div>
-                          </div>
-                          <div className="section__content">
-                              <p>
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat ornare sapien dictum iaculis. Class aptent taciti sociosqu ad litora torquent Class aptent taciti sociosqu ad litora
-                              </p>
-                          </div>
-                          <div className="section__footer">
-                              <Link to={"/"} className="button button--link">Sign up now to become a driver</Link>
-                          </div>
+                            <div className="section__header">
+                                <div className="logo logo--appIcon">
+                                    <img src={appIcon} alt="#" />
+                                </div>
+                                <h4 className="section__subTitle">
+                                    Drive with SnowMiner
+                                </h4>
+                                <div className="section__title">
+                                    <h2>Low Risk, High Return</h2>
+                                </div>
+                            </div>
+                            <div className="section__content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum lacus sed condimentum interdum. Donec placerat ornare sapien dictum iaculis. Class aptent taciti sociosqu ad litora torquent Class aptent taciti sociosqu ad litora
+                                </p>
+                            </div>
+                            <div className="section__footer">
+                                <Link to={"/"} className="button button--link">Sign up now to become a driver</Link>
+                            </div>
                         </Col>
 
 
@@ -47,7 +47,7 @@ export default class LowRiskHighReturn extends Component {
 
                     </Row>
 
-            </Section>
+                </Section>
             </div>
         );
     }

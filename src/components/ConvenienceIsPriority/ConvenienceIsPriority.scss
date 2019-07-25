@@ -1,14 +1,14 @@
 .section__convenienceIsPriority .row {
-        align-items: center;
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+    align-items: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media (min-width: 768px) {
-        .section__convenienceIsPriority .row {
-          align-items: center;
-          max-width: 100%;
-  }
+    .section__convenienceIsPriority .row {
+        align-items: center;
+        max-width: 100%;
+    }
 }
 .section__convenienceIsPriority .media__subTitle {
     color: var(--primaryColor);

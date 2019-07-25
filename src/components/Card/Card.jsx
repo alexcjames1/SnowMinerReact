@@ -13,7 +13,7 @@ export default class Card extends Component {
             <div className={ classy('media', 'card') }>
                 <div className="card__figure">
                     <img src={image}/>
-                 </div>
+                </div>
                 <div className="card__content">
                     {title ? <Heading tag="h4" className='card__heading'>{title}</Heading> : ''}
                     {paragraph ? <p className='card__body'>{paragraph}</p> : ''}

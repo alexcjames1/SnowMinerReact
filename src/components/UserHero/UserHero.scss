@@ -4,7 +4,6 @@
     0% { width: 0; }
     100% { width: 100% }
 }
-
 @keyframes bounce {
     0%   { transform: scale(1,1)    translateY(0); }
     10%  { transform: scale(1.05,1) translateY(0); }
@@ -14,18 +13,6 @@
     64%  { transform: scale(1,1)    translateY(0); }
     100% { transform: scale(1,1)    translateY(0); }
 }
-
-/*
-@keyframes skew {
-    0% { transform: skewY(0deg); }
-    80% { transform: skewY(2deg); }
-    85% { transform: skewY(4deg); }
-    90% { transform: skewY(6deg); }
-    95% { transform: skewY(4deg); }
-    100% { transform: skewY(0deg); }
-}
-*/
-
 @keyframes skew {
     0% { transform: skewY(0deg); }
     80% { transform: skewY(0deg); }
@@ -94,19 +81,19 @@
 
 /***truck***/
 .brand-scenery__truckPath--truck {
-  flex-shrink: 0;
+    flex-shrink: 0;
     background: url(./images/truck.svg) no-repeat;
     background-size: cover;
     width: 231px;
     height: 79px;
 }
 .bran-scenery__truckMask--truckContainer {
-  position: relative;
-  margin: 0 -50px;
+    position: relative;
+    margin: 0 -50px;
 }
 
 .brand-scenery--truckMask {
-  overflow: hidden;
+    overflow: hidden;
     position: absolute;
     bottom: 8px;
     left: -231px;
@@ -114,21 +101,21 @@
     z-index: 5;
 }
 .brand-scenery__truckContainer--truckPath {
-  animation: cubic-bezier(0.8, 0, 1, 1) forwards;
-  animation-name: truckPath;
-  animation-duration: 5s;
-  position: relative;
-  display: flex;
-  width: 50px;
-  justify-content: flex-end;
+    animation: cubic-bezier(0.8, 0, 1, 1) forwards;
+    animation-name: truckPath;
+    animation-duration: 5s;
+    position: relative;
+    display: flex;
+    width: 50px;
+    justify-content: flex-end;
     align-items: baseline;
 }
 
 /***trail***/
 .brand-scenery__truckPath--trail {
-  height: 50px;
-  flex-basis: 100%;
-  background: url(./images/trail.svg) repeat-x 0 100%;
+    height: 50px;
+    flex-basis: 100%;
+    background: url(./images/trail.svg) repeat-x 0 100%;
 }
 
 /***trees***/
@@ -286,29 +273,28 @@
     padding-right: 5px;
 }
 .userHero .row {
-  margin-top: 35px;
+    margin-top: 35px;
 }
 .userHero .userHero__CTA {
-  margin-top: 15px;
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.userHero  .brand-scenery__focus {
-  margin-top: 220px;
-}
-@media (min-width: 768px) {
-  .userHero .userHero__CTA {
     margin-top: 15px;
     max-width: 60%;
-  }
-  .userHero  .brand-scenery__focus {
-    margin-top: 0px;
-  }
+    margin-left: auto;
+    margin-right: auto;
+}
+.userHero  .brand-scenery__focus {
+    margin-top: 220px;
+}
+@media (min-width: 768px) {
+    .userHero .userHero__CTA {
+        margin-top: 15px;
+        max-width: 60%;
+    }
+    .userHero  .brand-scenery__focus {
+        margin-top: 0px;
+    }
 }
 @media (min-width: 991px) {
-  .userHero .userHero__CTA {
-    margin-top: 15px;
-    // max-width: 85%;
-  }
+    .userHero .userHero__CTA {
+        margin-top: 15px;
+    }
 }

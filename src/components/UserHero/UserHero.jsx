@@ -23,8 +23,8 @@ export default class UserHero extends Component {
                                             <div className="brand-scenery--truckMask">
                                                 <div className="bran-scenery__truckMask--truckContainer">
                                                     <div className="brand-scenery__truckContainer--truckPath">
-                                                          <div className="brand-scenery__truckPath--trail"></div>
-                                                          <div className="brand-scenery__truckPath--truck"></div>
+                                                        <div className="brand-scenery__truckPath--trail"></div>
+                                                        <div className="brand-scenery__truckPath--truck"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -36,7 +36,7 @@ export default class UserHero extends Component {
 
                                     <Container>
                                         <Row>
-                                          <Col xs="12" sm="5" className="userHero__CTA">
+                                            <Col xs="12" sm="5" className="userHero__CTA">
                                                 <div className="section__header">
                                                     <h1 className="section__title h1">
                                                         Earn money on your own schedule
@@ -77,7 +77,7 @@ export default class UserHero extends Component {
                                                     </div>
 
                                                 </div>
-                                          </Col>
+                                            </Col>
 
                                         </Row>
                                     </Container>

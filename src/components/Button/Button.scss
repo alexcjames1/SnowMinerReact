@@ -12,15 +12,15 @@
         text-transform: uppercase;
         border: 1px solid;
     }
-        &--primary:hover {
-            transform: scale(1.05);
-        }
-        &--primary:active {
-            text-decoration: none;
-        }
-        &--primary:visited {
-            color: #1c3359;
-        }
+    &--primary:hover {
+        transform: scale(1.05);
+    }
+    &--primary:active {
+        text-decoration: none;
+    }
+    &--primary:visited {
+        color: #1c3359;
+    }
 
 
     &--link {
@@ -30,15 +30,15 @@
         padding-left: 0;
         padding-right: 0;
     }
-        &--link:hover {
-            text-decoration: underline;
-        }
-        &--link:active {
-            text-decoration:underline;
-        }
-        &--link:visited {
-            color: #1c3359;
-        }
+    &--link:hover {
+        text-decoration: underline;
+    }
+    &--link:active {
+        text-decoration:underline;
+    }
+    &--link:visited {
+        color: #1c3359;
+    }
 
 
     &--cta {
