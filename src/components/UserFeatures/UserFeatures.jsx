@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import classy from '../../utils/classy';
+import classy from '../../utils/classy';
 import style from './UserFeatures.scss';
 import {MediaComponent} from '../';
 import onTheGo from './images/on-the-go-icon.png';
@@ -13,6 +13,7 @@ export default class UserFeatures extends Component {
         return(
             <div className="driverFeatures">
                 <div className="driverFeatures__content">
+                    
                     <Section className="section__userFeatures" kind="primary" size="small">
                         <Row>
                             <Col xs="12" sm="4">
@@ -28,7 +29,6 @@ export default class UserFeatures extends Component {
                     </Section>
 
                 </div>
-
             </div>
         );
     }

@@ -4,6 +4,7 @@
     0% { width: 0; }
     100% { width: 100% }
 }
+
 @keyframes bounce {
     0%   { transform: scale(1,1)    translateY(0); }
     10%  { transform: scale(1.05,1) translateY(0); }
@@ -13,6 +14,18 @@
     64%  { transform: scale(1,1)    translateY(0); }
     100% { transform: scale(1,1)    translateY(0); }
 }
+
+/*
+@keyframes skew {
+0% { transform: skewY(0deg); }
+80% { transform: skewY(2deg); }
+85% { transform: skewY(4deg); }
+90% { transform: skewY(6deg); }
+95% { transform: skewY(4deg); }
+100% { transform: skewY(0deg); }
+}
+*/
+
 @keyframes skew {
     0% { transform: skewY(0deg); }
     80% { transform: skewY(0deg); }
@@ -37,9 +50,19 @@
 }
 @media (min-width: 768px) {
     .brand-scenery__focusChildren {
-        margin-top: 300px;
         height: 200px;
         width: 265px;
+        bottom: 0;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 3;  /*on top of snow */
+    }
+}
+@media (min-width: 991px) {
+    .brand-scenery__focusChildren {
+        height: 200px;
+        width: 300px;
         bottom: 0;
         position: absolute;
         left: 50%;
@@ -267,10 +290,10 @@
 }
 
 .userHero .section__footer img {
-    width: 152px;
+    width: 130px;
 }
 .userHero .section__footer .appStoreButton--apple{
-    padding-right: 5px;
+    padding-right: 3px;
 }
 .userHero .row {
     margin-top: 35px;
@@ -282,12 +305,12 @@
     margin-right: auto;
 }
 .userHero  .brand-scenery__focus {
-    margin-top: 220px;
+    margin-top: 260px;
 }
 @media (min-width: 768px) {
     .userHero .userHero__CTA {
         margin-top: 15px;
-        max-width: 60%;
+        max-width: 30%;
     }
     .userHero  .brand-scenery__focus {
         margin-top: 0px;

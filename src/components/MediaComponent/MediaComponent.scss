@@ -4,6 +4,10 @@
 }
 .media--column {
     flex-direction: column;
+    margin-bottom: 20px;
+}
+@media (min-width:768px) {
+    margin-bottom: 0;
 }
 .textAlign--center {
     text-align: center;

@@ -12,7 +12,7 @@ export default class DriverFeatures extends Component {
     render() {
         return(
             <div>
-                <Section className="section__driverFeatures" kind="primary" size="normal">
+                <Section className="section__driverFeatures" kind="primary" size="small">
                     <div className="driverFeatures__content">
                         <Row>
                             <Col xs="12" sm="4">

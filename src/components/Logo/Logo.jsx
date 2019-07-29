@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import classy from '../../utils/classy';
 import style from './Logo.scss';
 import SnowminerLogo from './images/snowminer-logo.png';
 

@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
+import classy from '../../utils/classy';
 import style from './LowRiskHighReturn.scss';
 import earningsModal from './images/earnings-modal.png';
 import {MediaComponent} from '../';
 import appIcon from './images/snowminer-driver-app-icon.png';
-import {Link} from 'react-router-dom';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
@@ -11,7 +11,7 @@ export default class LowRiskHighReturn extends Component {
     render() {
         return(
             <div className="lowRiskhighReturn">
-                <Section className="section section--huge section--dark section--tertiary section__lowRiskhighReturn" kind="dark" size="normal">
+                <Section className="section section--huge section--dark section--tertiary section__lowRiskhighReturn" kind="dark" size="small">
                     <Row>
 
                         <Col xs="12" sm="6" className="lowRiskHighReturn__appInfo">
@@ -32,7 +32,9 @@ export default class LowRiskHighReturn extends Component {
                                 </p>
                             </div>
                             <div className="section__footer">
-                                <Link to={"/"} className="button button--link">Sign up now to become a driver</Link>
+                                <a href="#signup" className="button button--link">
+                                    Sign up now to become a driver
+                                </a>
                             </div>
                         </Col>
 
@@ -46,7 +48,6 @@ export default class LowRiskHighReturn extends Component {
                         </Col>
 
                     </Row>
-
                 </Section>
             </div>
         );

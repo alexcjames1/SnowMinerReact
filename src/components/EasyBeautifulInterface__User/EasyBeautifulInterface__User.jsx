@@ -9,8 +9,8 @@ import { Section } from '../../components';
 export default class EasyBeautifulInterface__User extends Component {
     render() {
         return(
-            <div className="easyBeautifulInterface__User">
-                <Section className="section section__easyBeautifulinterface__User" kind="primary" size="small">
+            <div className="easyBeautifulInterface">
+                <Section className="section section__easyBeautifulinterface" kind="primary" size="xsmall">
 
                     <Row>
                         <Col xs="12" sm="6">

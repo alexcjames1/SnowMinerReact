@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
+import classy from '../../utils/classy';
 import style from './Footer.scss';
 import {flexboxgrid} from '../../';
 import Logo from '../Logo/Logo';
-import {Link} from 'react-router-dom';
 import {Col, Row, Container } from 'react-bootstrap';
 
 export default class Footer extends Component {
@@ -23,13 +23,13 @@ export default class Footer extends Component {
                             <nav className="footer__navigationList navigation navigation--secondary">
                                 <ul className="list">
                                     <li>
-                                        <Link to={"/"}>Schedule</Link>
+                                        <a href="#">Schedule</a>
                                     </li>
                                     <li className="list__item--active">
-                                        <Link to={"/"}>Drive</Link>
+                                        <a href="#">Drive</a>
                                     </li>
                                     <li>
-                                        <Link to={"/"}>Contact</Link>
+                                        <a href="#">Contact</a>
                                     </li>
                                 </ul>
                             </nav>

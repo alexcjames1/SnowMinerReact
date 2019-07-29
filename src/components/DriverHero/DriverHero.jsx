@@ -35,7 +35,6 @@ export default class DriverHero extends Component {
 
                 </section>
             </div>
-
         );
     }
 }

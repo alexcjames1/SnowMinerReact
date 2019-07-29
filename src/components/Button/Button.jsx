@@ -5,12 +5,12 @@ import { Container } from 'react-bootstrap';
 
 export default class Button extends Component {
     render() {
-        const { kind, children, className, size } = this.props;
-        // kind types: primary, secondary, dark
-        // size: big, small
+        const { kind, children, className, state } = this.props;
+        // kind types: primary, link, CTA, large
+        // size: big, small, xsmall, normal
 
         return(
-            <div className={classy('button', className, (kind && 'button--' + kind), (size && 'button--' + size ) )}>
+            <div className={classy('button', className, (kind && 'button--' + kind), (state && 'button--' + state ) )}>
                 <Container>
                     {children}
                 </Container>

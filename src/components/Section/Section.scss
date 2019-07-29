@@ -5,6 +5,7 @@
     &--primary {
         background-color: #fff;
     }
+
     &--secondary {
         background-color: #F3F5F6;
     }
@@ -12,7 +13,8 @@
         background-color: linear-gradient(45deg, rgba(0,168,168,1) 0%, rgba(87,255,151,1) 100%);
     }
     &--normal {
-        padding: 80px 0px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
     &--xsmall {
         padding: 20px 0;

@@ -7,7 +7,7 @@ export default class Section extends Component {
     render() {
         const { kind, children, className, size } = this.props;
         // kind types: primary, secondary, dark
-        // size: big, small
+        // size: big, small, xsmall, normal
 
         return(
             <div className={classy('section', className, (kind && 'section--' + kind), (size && 'section--' + size ) )}>

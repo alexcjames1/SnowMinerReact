@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import classy from '../../utils/classy';
 import style from './Header__nav.scss';
 import {Link} from 'react-router-dom';
 // import script from './script.js';
@@ -92,7 +93,7 @@ export default class Header__nav extends Component {
     render() {
         return(
             <div className="header__navigation">
-
+                
                 <nav className="navigation navigation--main nav">
                     <div className="navigation__menuTrigger nav__trigger">
                         <a onClick={toggleCanvas} className="nav__link" href="#">
