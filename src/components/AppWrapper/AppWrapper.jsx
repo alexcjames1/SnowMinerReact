@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Header, Footer } from '../../components';
+import {Helmet} from "react-helmet";
 
 export default class AppWrapper extends Component {
     render() {
