@@ -7,6 +7,12 @@ export default class AppWrapper extends Component {
 
         return(
             <div className="app">
+                <Helmet
+                    titleTemplate="%s | SnowMiner.com"
+                >
+                    <meta name="description" content="Driving with SnowMiner is dope" />
+                    <title>Home</title>
+                </Helmet>
                 <Header />
                 {children}
                 <Footer />
