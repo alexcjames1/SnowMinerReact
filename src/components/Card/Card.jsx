@@ -11,14 +11,16 @@ export default class Card extends Component {
         const {image, title, paragraph, column, textAlign, button } = this.props;
 
         return(
-            <div className={ classy('media', 'card') }>
-                <div className="card__figure">
-                    <img src={image}/>
-                </div>
-                <div className="card__content">
-                    {title ? <Heading tag="h4" className='card__heading'>{title}</Heading> : ''}
-                    {paragraph ? <p className='card__body'>{paragraph}</p> : ''}
-                    {button ? <Link className="card__button">{button}</Link> : ''}
+            <div className={ classy('card') }>
+                <div class="media">
+                    <div className="card__figure">
+                        <img src={image}/>
+                    </div>
+                    <div className="card__content">
+                        {title ? <Heading tag="h4" className='card__heading'>{title}</Heading> : ''}
+                        {paragraph ? <p className='card__body'>{paragraph}</p> : ''}
+                        {button ? <Link className="card__button">{button}</Link> : ''}
+                    </div>
                 </div>
             </div>
 

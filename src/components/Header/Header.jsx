@@ -70,31 +70,42 @@ var toggleCanvas = function() {
 
 var headerSticky = function() {
 
-    //CHANGES THE BACKGROUND COLOR OF THE HEADER
+    //CHANGES THE BACKGROUND COLOR OF THE HEADER\\
 
     var nav = document.querySelector('.header--transparent');
 
+    if (nav) {
     window.addEventListener('scroll', () => {
         var navPosition = offset(nav);
 
         if (navPosition.top > 50) {
-            nav.classList.add('is-sticky');
+            return true;
         } else {
-            nav.classList.remove('is-sticky');
+            return false;
         }
     });
+    }
 }
 
-window.addEventListener('DOMContentLoaded', (event) => {
+/* window.addEventListener('DOMContentLoaded', (event) => {
    headerSticky();
-});
+}); */
 
-
+var isSticky;
+if (headerSticky()) {
+    isSticky = "is-sticky"
+} else {
+    isSticky = '';
+}
 
 export default class Header extends Component {
     render() {
         return(
-            <header className="header header--transparent">
+            <header className={classy(
+                        "header",
+                        "header--transparent",
+                        isSticky
+            )}>
                 <div className="container">
                     <div className="header__container">
                         <div className="header__logo">
